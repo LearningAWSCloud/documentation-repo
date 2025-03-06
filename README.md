@@ -2,6 +2,16 @@
 
 ## Visual Studio Code
 
+### Open VS code from git bash
+
+- Open git bash terminal
+
+- Navigate to appropriate directory using pwd, cd, ls commands
+
+- Use the below command to open VS code for the directory
+
+   `code .`
+
 ### New branch creation from VS code
 
 Key-In `CTRL+SHIFT+P` and search for `Git: Create Branch` Once you selected the option, the prompt will ask for the branch name.
