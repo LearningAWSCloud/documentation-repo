@@ -126,3 +126,52 @@ https://devhints.io/vim
 
 `~` - Toggle the character of the current character and move to next character
 
+## Visual Mode
+
+`v` - Jump into visual character mode
+
+`V` - Jump into visual line mode
+
+`CTRL + v` - Jump into visual block mode
+
+`h` `j` `k` `l` or `Arrow keys` - Use these keys to select the text
+
+    - `U` - Convert the selection into Upper case alphabets
+
+    - `u` - Convert the selection into Lower case alphabets
+
+    - `d` - Delete the selection
+
+    - `c` - Change the selection
+
+    - `y` - Yank the selection
+
+    - `>` - Indent the selection
+
+    - `<` - Dedent the selection
+
+    - `s/foo/bar/g` - To change all the occurences of foo with bar within the selection
+
+## Working with Multiple Tabs
+
+`:e foo.txt` - Opens the existing file foo.txt in a new tab
+
+`:tabnew bar.txt`  - Opens a new empty file called bar.txt
+
+    - `1gt` - Switches to the first tab
+
+    - `2gt` - Switches to the second tab
+
+`vim foo.txt bar.txt` - Opens multiple tabs but in a hidden way
+
+    - `:b1` - Switch to the first tab
+
+    - `:b2` - Switch to the second tab
+
+
+
+
+
+
+
+
